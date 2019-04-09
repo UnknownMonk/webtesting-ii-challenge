@@ -1,16 +1,12 @@
 import React from 'react';
-import { render, fireEvent } from 'react-testing-library';
+import Display from './Display';
+import { render } from 'react-testing-library';
+import 'jest-dom/extend-expect';
 
 import Dashboard from './Dashboard';
-import Display from './Display';
 
-describe('Dashboard renders without crashing', () => {
-  test('renders the Dashboard component', () => {
+describe('<Dashboard>', () => {
+  it('renders successfully', () => {
     render(<Dashboard />);
-  });
-  test('clicking the strikes button should update the display strikes <li>', () => {
-    const component = render(<Display />);
-    const strikes = component.getByTestId('strikes');
-    console.log(strikes);
   });
 });

@@ -2,18 +2,9 @@
   "name": "testing",
   "version": "1.0.0",
   "author": "UnknownMonk <smodcartoon@gmail.com>",
-  "homepage": "https://github.com/LambdaSchool/webtesting-ii-guided#readme",
   "keywords": [
-    "testing",
-    "lambda"
+    "testing"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webtesting-ii-guided.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LambdaSchool/webtesting-ii-guided/issues"
-  },
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
