@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Display = props => {
+const Display = ({ balls, strikes }) => {
   return (
     <>
-      <h3>Balls:{props.balls}</h3>
-      <h3>Strikes:{props.strikes}</h3>
+      <h3 data-testid="balls">Balls:{balls}</h3>
+      <h3 data-testid="strikes">Strikes:{strikes}</h3>
     </>
   );
 };
